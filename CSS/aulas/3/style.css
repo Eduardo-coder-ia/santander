@@ -1,0 +1,58 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: aquamarine;
+  font-size: 8rem;
+  text-align: center;
+  margin: 2rem;
+  font-family: "Comic Neue", cursive;
+}
+
+h2 {
+  color: aquamarine;
+  text-align: center;
+  margin: 2rem;
+  font-family: "Comic Neue", cursive;
+  font-size: 3rem;
+}
+
+a {
+  font-size: 2.4rem;
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(226, 43, 220);
+  text-decoration: solid;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+.back {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1600x900/hd-aspect-1471537670-es-081716-vaporwave.jpg?resize=1200:*");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
